@@ -1,0 +1,248 @@
+body
+{
+    background-image: url(img/Java.png);
+    background-color: #f6f5f5;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.sec1
+{
+    width: 100%;  
+    height: 75vh;
+    background-image: url(img/azul1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Estilo navegador */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+
+}
+
+nav ul li a
+{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.imgbg
+{
+    height: 190px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 100%;
+    margin: 35px 105px -100px;
+}
+
+.active
+{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+
+/* Estilo textos */
+.conteudo-texto p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(2)
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 30px;
+}
+
+.conteudo-texto p:nth-child(3)
+{
+    font-family: cursive;
+    color: #070707;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.conteudo-texto
+{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.conteudo-texto
+{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.sec2
+{  
+    width: 100%;  
+    height: 25vh;
+    background-image: url(img/azul1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.FORMAÇÃO p:nth-child(1)
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #020202;
+    margin: 50px 30px 20px;
+    font-size: 30px;
+}
+
+.FORMAÇÃO p:nth-child(2)
+{
+    color: #070707;
+    margin: 0px 30px 5px;
+    font-family: cursive;
+    font-size: 20px;
+} 
+
+.FORMAÇÃO p:nth-child(3)
+{
+    color: #070707;
+    margin: 0px 30px 1px;
+    font-family: cursive;
+    font-size: 15px;
+} 
+
+.FORMAÇÃO p:nth-child(4)
+{
+    color: #070707;
+    margin: 0px 30px 1px;
+    font-family: cursive;
+    font-size: 15px;
+} 
+
+.EXPERIÊNCIA
+{  
+    width: 100%;  
+    height: 25vh;
+    background-image: url(img/azul1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.EXPERIÊNCIA p:nth-child(1)
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #020202;
+    margin: 50px 30px 20px;
+    font-size: 30px;
+}
+
+.EXPERIÊNCIA p:nth-child(2)
+{
+    color: #070707;
+    margin: 0px 30px 5px;
+    font-family: cursive;
+    font-size: 20px;
+} 
+
+.EXPERIÊNCIA p:nth-child(3)
+{
+    color: #070707;
+    margin: 0px 30px 1px;
+    font-family: cursive;
+    font-size: 15px;
+} 
+
+.EXPERIÊNCIA p:nth-child(4)
+{
+    color: #070707;
+    margin: 0px 30px 1px;
+    font-family: cursive;
+    font-size: 15px;
+}    
+
+.PROJETOS
+{
+    width: 100%;  
+    height: 35vh;
+    background-image: url(img/azul1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+.PROJETOS p:nth-child(1)
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #020202;
+    margin: 50px 30px 20px;
+    font-size: 30px;
+}
+.box1
+{
+    width: 100px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-color: #cebebe;
+    background-size: cover;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 30px 20px;
+}
+
+.CONTATO
+{
+    width: 100%;
+    height: 280px;
+    background-image: url(img/azul2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CONTATO p
+{
+    color: #fdfcfc;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+}
+
+.CONTATO button
+{
+    width: 200px;
+    height: 40px;
+    background-color: #fcfafa;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
