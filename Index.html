@@ -82,7 +82,40 @@
 
         <p>Se você tem interese no meu trabalho, entre em contato comigo</p>
         
-        <button>Fale comigo</button>
+        <form name="Formulario" method="post" onsubmit="return validateForm()">
+            <label>Nome completo:</label>
+            <input
+              type="text"
+              name="form-name"
+              placeholder="digite aqui seu nome"
+              required
+            />
+            <label>E-mail:</label>
+            <input
+              type="email"
+              name="form-email"
+              placeholder="digite aqui o seu e-mail"
+              required
+            />
+            <label>Telefone:</label>
+            <input
+              type="number"
+              name="form-telefone"
+              placeholder="insiera telefone"
+            />
+            <label>Informações adiconais</label>
+            <textarea
+              name="texto"
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Asunto"
+            ></textarea>
+            <button type="submit" class="btn">Enviar</button></div>
+        <p class="formulario-exito" id="formulario-exito" >Enviado</p>
+          </form>
+         </div>
+         <script src="script.js"></script>
 
         
 
